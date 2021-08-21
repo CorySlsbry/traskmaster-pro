@@ -105,7 +105,7 @@ $(".card .list-group").sortable({
             .find("span")
             .text()
             .trim()
-        })
+        });
       });
 
     // trim down list's ID to match object property
